@@ -23,12 +23,6 @@ import NavBar from "../components/NavBar.vue";
 </script>
 
 <style scoped>
-.projects-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 24px;
-}
-
 .page-title {
   color: #1f2937;
   margin-bottom: 32px;
@@ -36,6 +30,7 @@ import NavBar from "../components/NavBar.vue";
 }
 
 .projects-grid {
+  margin: 16px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
